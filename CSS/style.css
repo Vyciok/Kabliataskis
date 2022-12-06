@@ -91,6 +91,7 @@ buttons
 .secondary_btn-light:hover {
     background-color: var(--rapture-blue);
     color: var(--dark-green);
+}
 
 /*----------------------- 
 Header baner
