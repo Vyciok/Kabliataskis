@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    /*   */
     padding: 0;
     box-sizing: border-box;
     font-family: 'Livvic', sans-serif;
@@ -90,4 +90,30 @@ buttons
 .secondary_btn-light:hover {
     background-color: var(--rapture-blue);
     color: var(--dark-green);
+}
+/*----------------------- 
+Header baner
+----------------------- */
+.Header_banner{
+    background-color: var(--deep-jungle-green);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+}
+.h2_title{
+    width: 800px;
+    margin-left: 100px; 
+    margin-top: 120px;
+    margin-bottom: 170px; 
+}
+.p_header{
+    width: 500px;
+    margin-top: 220px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+.red{
+    color:#F67E7E;
+    margin: 0;
+    display: inline;
 }
