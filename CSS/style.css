@@ -135,14 +135,14 @@ a.nav:hover{
 Header baner
 ----------------------- */
 .Header_banner{
-    background-color: var(--deep-jungle-green);
+    background-color: var(--midnight-green);
     color: var(--white);
     display: flex;
     flex-direction: row;
 }
 .h2_title{
     width: 800px;
-    margin-left: 100px; 
+    margin-left: 165px; 
     margin-top: 120px;
     margin-bottom: 170px; 
 }
