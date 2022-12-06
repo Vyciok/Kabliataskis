@@ -5,6 +5,8 @@
     box-sizing: border-box;
     font-family: 'Livvic', sans-serif;
 }
+
+
 /* ------------------
 colors
 -------------------- */
@@ -93,18 +95,54 @@ buttons
     color: var(--dark-green);
 }
 
+
+/* Header nav */
+
+
+.header_nav{
+    padding: 73px 165px 13px 165px;
+    background-color:var(--midnight-green);
+    color: white;
+}
+.nav_h2 {
+    margin-right: 42px;
+}
+
+.nav_word{
+    word-spacing: 40px;
+    margin-left: 40px;
+}
+a:link{
+    text-decoration: none;
+}
+a.nav:visited{
+    color: var(--white);
+}
+a.nav:hover{
+    color: var(--light-coral);
+}
+
+.header-right{
+    margin-left: 680px;
+}
+.header_nav_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /*----------------------- 
 Header baner
 ----------------------- */
 .Header_banner{
-    background-color: var(--deep-jungle-green);
+    background-color: var(--midnight-green);
     color: var(--white);
     display: flex;
     flex-direction: row;
 }
 .h2_title{
     width: 800px;
-    margin-left: 100px; 
+    margin-left: 165px; 
     margin-top: 120px;
     margin-bottom: 170px; 
 }
@@ -141,7 +179,6 @@ Home Main 1
     display: flex;
     flex-direction: row;
 }
-
 .home_main-1_title_container {
     color: var(--white);
     width: 50%;
