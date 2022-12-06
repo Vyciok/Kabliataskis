@@ -114,6 +114,7 @@ buttons
 }
 a:link{
     text-decoration: none;
+    color: var(--white);
 }
 a.nav:visited{
     color: var(--white);
