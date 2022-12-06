@@ -1,3 +1,77 @@
+:root {
+    --midnight-green: #014E56;
+    --light-coral: #F67E7E;
+    --white: #FFFFFF;
+    --rapture-blue: #79C8C7;
+    --police-blue: #2C6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012F34;
+    --dark-green: #002529;
+}
+
+.Main_2{
+    background-color: var(--deep-jungle-green);
+}
 .Main_description_2{
+    display: flex;
     
+    color: var(--white);
+    text-align: center;
+}
+
+.Main_description_2 p{
+    width: 365px;
+}
+
+.Main_name2{
+    
+
+    padding-left: 254px;
+    padding-right: 254px;
+    padding-top: 140px;
+    padding-bottom: 92px;
+    font-size: 26px;
+text-align: center;
+color: var(--white);
+}
+
+.color{
+    color:var(--rapture-blue);
+}
+
+.description-kady {
+    padding-left: 165px;
+    padding-right: 30px;
+    padding-bottom: 151px;
+}
+.description-aiysha{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.description-arthur{
+    padding-left: 30px;
+    padding-right: 165px;
+}
+
+.Main_description_2 h5{
+    padding-top: 24px;
+    font-size: large;
+    color: var(--rapture-blue);
+}
+
+.characterization{
+    font-style: italic;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.photo img{
+    margin-top: 32px;
+    margin-bottom: 140px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid var(--rapture-blue);
 }
