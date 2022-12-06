@@ -128,12 +128,10 @@ a.nav:hover{
     margin-left: 680px;
 }
 .header_nav_links{
-    /* box-sizing: content-box;
-    width: 200px;
-    height: 35px;
-    margin-top: 30px;
-    padding-top: 30px; */
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
+
+/* Header nav */
