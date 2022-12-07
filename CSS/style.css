@@ -275,10 +275,29 @@ Background patterns
     bottom: 0; 
 }
 
+.bg-pattern-home-6-about-5 {
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+
+.bg-pattern-about-1-mobile-nav-1 {
+    position: absolute;
+    right: -100px;
+    bottom: 0; 
+}
+
+.bg-pattern-about-4 {
+    position: absolute;
+    left: 0;
+    top: 0; 
+}
+
 /* About main 2 */
 
 .about-main_2{
     background-color: var(--sacramento-state-green);
+    position: relative;
     
 }
 .about-main_clients{
@@ -300,18 +319,14 @@ Foter_section_1
 ------------------------- */
 .footer_1{
     background-color: var(--light-coral);
+    color: var(--sacramento-state-green);
     padding: 76px 263px 76px 263px; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
-.footer_h2{
-    /* margin-left: 263px;
-    margin-top: 165px;
-    margin-bottom: 150px; */
-}
-
 
 /* -----------------
 Desktop media query to 768px
