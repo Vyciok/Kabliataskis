@@ -304,4 +304,32 @@ Desktop media query to 768px
 .img_about{
     width: 70%;
     
+
 }
+/* ----------------------
+Foter_section_1
+------------------------- */
+.footer_1{
+    background-color: var(--light-coral);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.footer_h2{
+    padding-left: 100px;
+}
+
+/* -----------------
+Desktop media query to 768px
+------------------- */
+@media (max-width:1440px) and (min-width:768px) {
+    .container_sides_padding {
+        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
+        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
+    };
+}; 
+/* ------------------- */
+
