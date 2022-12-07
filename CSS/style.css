@@ -225,7 +225,26 @@ Home Main 1
     opacity: 0.8;
 }
 /* ----------------- */
+/* About main 2 */
 
+.main_2{
+    background-color: var(--sacramento-state-green);
+    
+}
+.main_clients{
+    color: var(--white);
+    text-align: center;
+    padding: 140px 165px 70px 165px;
+}
+.img_container{
+    display: flex;
+    align-items: center;
+    padding: 0px 165px 151px 165px;
+}
+.img_about{
+    width: 70%;
+    
+}
 /* -----------------
 Desktop media query to 768px
 ------------------- */
