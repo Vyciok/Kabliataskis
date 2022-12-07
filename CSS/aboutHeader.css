@@ -1,0 +1,39 @@
+:root {
+    --midnight-green: #014E56;
+    --light-coral: #F67E7E;
+    --white: #FFFFFF;
+    --rapture-blue: #79C8C7;
+    --police-blue: #2C6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012F34;
+    --dark-green: #002529;
+}
+.Header_main{
+    background-color: var(--midnight-green);
+    display: flex;
+    color: var(--white);
+    height: ;
+}
+.Header_main h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    height: 100px;
+    width: 350px;
+    margin-left: 165px;
+    padding-right: 30px;
+    margin-bottom: 176px;
+    margin-top: 100px;
+
+
+}
+.Header_main p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  height: 112px;
+  width: 730px;
+  margin-right: 165px;
+  margin-bottom: 120px;
+  margin-top: 150px;
+}
