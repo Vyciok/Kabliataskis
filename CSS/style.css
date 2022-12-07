@@ -6,7 +6,6 @@
     font-family: 'Livvic', sans-serif;
 }
 
-
 /* ------------------
 colors
 -------------------- */
@@ -274,34 +273,33 @@ Background patterns
     bottom: 0; 
 }
 
-/* -----------------
-Desktop media query to 768px
-------------------- */
-@media (max-width:1440px) and (min-width:768px) {
-    .container_sides_padding {
-        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-    };
-}; 
-/* ------------------- */
-
 /* About main 2 */
 
-.main_2{
+.about-main_2{
     background-color: var(--sacramento-state-green);
     
 }
-.main_clients{
+.about-main_clients{
     color: var(--white);
     text-align: center;
     padding: 140px 165px 70px 165px;
 }
-.img_container{
+.about-img_container{
     display: flex;
     align-items: center;
     padding: 0px 165px 151px 165px;
 }
-.img_about{
+.about-img_about{
     width: 70%;
-    
 }
+
+/* -----------------
+Desktop media query to 768px
+------------------- */
+/* @media (max-width:1440px) and (min-width:768px) {
+    .container_sides_padding {
+        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
+        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
+    };
+};  */
+/* ------------------- */
