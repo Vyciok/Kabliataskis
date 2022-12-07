@@ -11,6 +11,7 @@
 
 .Main_2{
     background-color: var(--deep-jungle-green);
+    position: relative;
 }
 .Main_description_2{
     display: flex;
@@ -28,8 +29,7 @@
 
     padding-left: 254px;
     padding-right: 254px;
-    padding-top: 140px;
-    padding-bottom: 92px;
+    padding-top: 140px;   
     font-size: 26px;
 text-align: center;
 color: var(--white);
@@ -39,19 +39,28 @@ color: var(--white);
     color:var(--rapture-blue);
 }
 
+.main_2_quotes {
+    margin-top: 56px;
+    margin-bottom: -23px;
+}
+
 .description-kady {
     margin-left: 165px;
     padding-right: 30px;
-    padding-bottom: 151px;
+    margin-bottom: 151px;
 }
 .description-aiysha{
     padding-right: 30px;
     padding-left: 30px;
+    margin-bottom: 151px;
 }
 
 .description-arthur{
     padding-left: 30px;
     margin-right: 165px;
+
+    margin-bottom: 151px;
+
 }
 
 .Main_description_2 h5{
@@ -69,7 +78,9 @@ color: var(--white);
 
 .photo img{
     margin-top: 32px;
+
     /* margin-bottom: 140px; */
+
     width: 62px;
     height: 62px;
     border-radius: 50%;
