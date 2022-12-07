@@ -11,7 +11,10 @@
 .Header_main{
     background-color: var(--midnight-green);
     display: flex;
+    justify-content: space-between;
     color: var(--white);
+    position: relative;
+    overflow: hidden;
 }
 .Header_main h1{
     font-weight: 700;
@@ -22,9 +25,15 @@
     margin-left: 165px;
     padding-right: 30px;
     margin-bottom: 176px;
-    margin-top: 100px;
-
-
+    margin-top: 111px;
+}
+.about_banner_section_divider {
+    width: 50px;
+    height: 4px;
+    background-color: var(--light-coral);
+    border: none;
+    margin-top: 111px;
+    margin-bottom: 40px;
 }
 .Header_main p{
     font-weight: 600;
@@ -34,5 +43,4 @@
     width: 730px;
     margin-right: 165px;
     margin-bottom: 120px;
-    margin-top: 150px;
 }
