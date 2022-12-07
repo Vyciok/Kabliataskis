@@ -226,6 +226,10 @@ Home Main 1
     height: 72px;
 }
 
+.home_main-1_description_icon-1 {
+    margin-right: 7px;
+}
+
 .home_main-1_description_box .h3{
     color: var(--light-coral);
     margin-bottom: 16px;
