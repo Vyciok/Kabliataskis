@@ -147,16 +147,25 @@ Header baner
     color: var(--white);
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 .h2_title{
     width: 800px;
     margin-left: 165px; 
     margin-top: 120px;
-    margin-bottom: 170px; 
+    margin-bottom: 250px; 
+}
+.home_banner_section_divider {
+    width: 50px;
+    height: 4px;
+    background-color: var(--rapture-blue);
+    border: none;
+    margin-top: 130px;
+    margin-bottom: 79px;
+    margin-left: 40px;
 }
 .p_header{
     width: 500px;
-    margin-top: 220px;
     margin-right: 100px;
     margin-left: 40px;
 }
@@ -173,9 +182,11 @@ Home Main 1
 .home_main-1 {
     padding: 140px 165px 140px 165px;
     background-color: var(--sacramento-state-green);
+    position: relative;
+    overflow: hidden;
 }
 
-.section_divider {
+.home_main-1_section_divider {
     width: 50px;
     height: 4px;
     background-color: var(--light-coral);
@@ -225,6 +236,51 @@ Home Main 1
     opacity: 0.8;
 }
 /* ----------------- */
+
+/* -------------------
+Background patterns
+--------------------- */
+.bg-pattern-home-1 {
+    position: absolute;
+    top: 120px;
+    left: -100px;
+}
+
+.bg-pattern-home-2 {
+    position: absolute;
+    right: 165px;
+    bottom: 0;
+}
+
+.bg-pattern-home-3 {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+}
+
+.bg-pattern-home-4 {
+    position: absolute;
+    left: 0;
+    top: 0; 
+}
+
+.bg-pattern-home-5 {
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+}
+
+/* -----------------
+Desktop media query to 768px
+------------------- */
+@media (max-width:1440px) and (min-width:768px) {
+    .container_sides_padding {
+        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
+        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
+    };
+}; 
+/* ------------------- */
+
 /* About main 2 */
 
 .main_2{
@@ -245,13 +301,3 @@ Home Main 1
     width: 70%;
     
 }
-/* -----------------
-Desktop media query to 768px
-------------------- */
-@media (max-width:1440px) and (min-width:768px) {
-    .container_sides_padding {
-        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-    };
-}; 
-/* ------------------- */
