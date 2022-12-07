@@ -112,14 +112,16 @@ buttons
     word-spacing: 40px;
     margin-left: 40px;
 }
-a:link{
+a:link {
     text-decoration: none;
+}
+.nav_word:link{
     color: var(--white);
 }
-a.nav:visited{
+.nav_word.nav:visited{
     color: var(--white);
 }
-a.nav:hover{
+.nav_word.nav:hover{
     color: var(--light-coral);
 }
 .header_nav_links{
