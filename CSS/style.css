@@ -245,6 +245,22 @@ Home Main 1
     width: 70%;
     
 }
+/* ----------------------
+Foter_section_1
+------------------------- */
+.footer_1{
+    background-color: var(--light-coral);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.footer_h2{
+    padding-left: 100px;
+}
+
 /* -----------------
 Desktop media query to 768px
 ------------------- */
