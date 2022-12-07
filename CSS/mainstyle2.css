@@ -11,6 +11,7 @@
 
 .Main_2{
     background-color: var(--deep-jungle-green);
+    position: relative;
 }
 .Main_description_2{
     display: flex;
@@ -28,8 +29,7 @@
 
     padding-left: 254px;
     padding-right: 254px;
-    padding-top: 140px;
-    padding-bottom: 92px;
+    padding-top: 140px;   
     font-size: 26px;
 text-align: center;
 color: var(--white);
@@ -37,6 +37,11 @@ color: var(--white);
 
 .color{
     color:var(--rapture-blue);
+}
+
+.main_2_quotes {
+    margin-top: 56px;
+    margin-bottom: -23px;
 }
 
 .description-kady {
