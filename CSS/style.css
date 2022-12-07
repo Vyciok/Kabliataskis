@@ -136,7 +136,7 @@ a.nav:hover{
     float: right;
     display: flex;
     align-items: center;
-  }
+}
 
 /*----------------------- 
 Header baner
@@ -293,13 +293,33 @@ Background patterns
     width: 70%;
 }
 
+/* ----------------------
+Foter_section_1
+------------------------- */
+.footer_1{
+    background-color: var(--light-coral);
+    padding: 76px 263px 76px 263px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_h2{
+    /* margin-left: 263px;
+    margin-top: 165px;
+    margin-bottom: 150px; */
+}
+
+
 /* -----------------
 Desktop media query to 768px
 ------------------- */
 /* @media (max-width:1440px) and (min-width:768px) {
+@media (max-width:1440px) and (min-width:768px) {
     .container_sides_padding {
         padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
         padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
     };
 };  */
 /* ------------------- */
+
