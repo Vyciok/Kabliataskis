@@ -21,7 +21,9 @@
 }
 
 .Main_description_2 p{
-    width: 365px;
+    /* width: 365px; */
+    /* CIA PABANDYMAS JEIGU ATGAL NORI GRAZINTI ISTRINK DISPLAY FLEX */
+    display: flex;
 }
 
 .Main_name2{
