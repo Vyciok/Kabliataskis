@@ -21,9 +21,7 @@
 }
 
 .Main_description_2 p{
-    /* width: 365px; */
-    /* CIA PABANDYMAS JEIGU ATGAL NORI GRAZINTI ISTRINK DISPLAY FLEX */
-    display: flex;
+    width: 365px;
 }
 
 .Main_name2{
@@ -88,4 +86,7 @@ color: var(--white);
     height: 62px;
     border-radius: 50%;
     border: 2px solid var(--rapture-blue);
+}
+.size_main2{
+    padding: 3px 0 0 0;
 }
