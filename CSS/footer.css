@@ -1,0 +1,67 @@
+.footer{
+    /* max-width: 1440px; */
+    width:100%;
+    height: 196px;
+    left: 0px;
+    padding: 50px 5%;
+    background: #002529;
+    color: white;
+    overflow-x: hidden
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+
+  a:hover{
+    color: lightcoral;
+  }
+
+  h2{
+    font-size: 60px;
+    font-family: 'Livvic Bold' 48px, 48px;
+  }
+  
+  
+  
+  .col-1{
+    margin-bottom: -100px;
+  }
+  
+  
+  .col-2{
+    margin-top: -140px;
+    margin-left: 400px;
+    color:  gray;
+    font-size: 100%;
+  }
+  
+  
+   .col-3{
+    float:right;
+    margin-top: 30px;
+    margin-right: 70px;
+    color: gray;
+    position: relative;
+  } 
+  
+  .col-4-icons{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: center;
+    float: right;
+    position: relative;
+    font-size: 30px;
+    justify-content:space-evenly;
+    margin-top: -100px;
+    margin-left: -50px;
+    align-items:start;
+    
+  }
+  .fa-facebook:hover{
+    color: #1877f2; color:red;
+  }
