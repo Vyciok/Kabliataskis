@@ -15,13 +15,14 @@
 }
 .Main_description_2{
     display: flex;
-    
+    justify-content: center;
     color: var(--white);
     text-align: center;
+    max-width: 100%;
 }
 
 .Main_description_2 p{
-    width: 365px;
+    max-width: 350px;
 }
 
 .Main_name2{
