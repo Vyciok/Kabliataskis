@@ -331,11 +331,17 @@ Foter_section_1
 Contact us main
 -------------------------- */
 .main_contact_us{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: var(--midnight-green);
     padding: 73px 165px 13px 165px;
 }
 .Main_name{
     color: var(--white);
+    display: flex;
+    flex-direction: none;
+    /* justify-content: space-between; */
 }
 .Main_description{
     color: var(--light-coral);
@@ -352,28 +358,41 @@ Contact us main
     display: flex;
     flex-direction: row;
 }
-.forms_1{
+.column1{
+    /* margin-left: -40px; */
+    margin-right: 80px;
+}
+.column2{
+    margin-top: -60px;
+    margin-right: -150px;
+    /* margin-left: 100px; */
+
+}
+    .form_inputs{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    bottom: 25px;
-    left: 700px;
-}
-.form_inputs{
     border: 1px solid var(--white);
     color: var(--white);
     border-top: none;
     border-left: none;
     border-right: none;
     background-color: transparent;
-    padding: 30px 0 35px 15px;
+    padding: 26px 0 40px 15px;
     width: 540px;
+    /* margin-top: -40px; */
 }
 .Message{
-    padding: 15px 0 50px 15px;
+    padding: 25px 0 50px 15px;
 }
 .submit{
     margin-top: 20px;
+}
+.abaut_text{
+    display: flex;
+    flex-direction: row;
+}
+.knopka{
+    margin-top: 50px;
 }
 /* -----------------
 Desktop media query to 768px
