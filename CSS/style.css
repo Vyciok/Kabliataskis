@@ -327,7 +327,54 @@ Foter_section_1
     align-items: center;
     position: relative;
 }
-
+/* -----------------------
+Contact us main
+-------------------------- */
+.main_contact_us{
+    background-color: var(--midnight-green);
+    padding: 73px 165px 13px 165px;
+}
+.Main_name{
+    color: var(--white);
+}
+.Main_description{
+    color: var(--light-coral);
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 30px;
+    padding: 60px 0 13px 0;
+}
+.Main_description_p{
+    color: var(--white);
+    padding: 30px 0 30px 20px;
+}
+.Main_description_p_1{
+    display: flex;
+    flex-direction: row;
+}
+.forms_1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+    left: 700px;
+}
+.form_inputs{
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding: 30px 0 35px 15px;
+    width: 540px;
+}
+.Message{
+    padding: 15px 0 50px 15px;
+}
+.submit{
+    margin-top: 20px;
+}
 /* -----------------
 Desktop media query to 768px
 ------------------- */
