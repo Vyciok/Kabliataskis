@@ -363,8 +363,9 @@ Contact us main
     margin-right: 80px;
 }
 .column2{
-    margin-top: -35px;
+    margin-top: -25px;
     margin-right: -150px;
+    padding: 0;
     /* margin-left: 100px; */
 
 }
@@ -375,7 +376,7 @@ Contact us main
     border: 1px solid var(--white);
     color: var(--white);
     padding-top: 24px;
-    padding-bottom: 23px;
+    padding-bottom: 27px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -399,6 +400,9 @@ Contact us main
 }
 ::placeholder {
     color: var(--rapture-blue);
+}
+.name{
+    padding-top:0;
 }
 /* -----------------
 Desktop media query to 768px
