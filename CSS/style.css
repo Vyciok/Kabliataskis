@@ -333,6 +333,7 @@ Contact us main
 .main_contact_us{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--midnight-green);
     padding: 73px 165px 13px 165px;
@@ -364,9 +365,10 @@ Contact us main
 }
 .column2{
     margin-top: -25px;
-    margin-right: -150px;
+    /* margin-right: -150px; */
     padding: 0;
     /* margin-left: 100px; */
+
 
 }
 .form_inputs:focus{
@@ -385,7 +387,7 @@ Contact us main
     border-right: none;
     background-color: transparent;
     outline: none;
-
+    /* align-items: space-between; */
     width: 540px;
 }
 .Message{
