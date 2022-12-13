@@ -369,6 +369,9 @@ Contact us main
     /* margin-left: 100px; */
 
 }
+.form_inputs:focus{
+    border-color: var(--rapture-blue);
+}
     .form_inputs{
     padding-left: 15px;
     display: flex;
@@ -381,7 +384,8 @@ Contact us main
     border-left: none;
     border-right: none;
     background-color: transparent;
-    
+    outline: none;
+
     width: 540px;
 }
 .Message{
@@ -404,6 +408,9 @@ Contact us main
 .name{
     padding-top:0;
 }
+/* : :required{
+    body:
+} */
 /* -----------------
 Desktop media query to 768px
 ------------------- */
