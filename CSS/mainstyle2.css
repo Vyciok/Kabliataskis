@@ -10,8 +10,12 @@
 }
 
 .Main_2{
+    padding: 140px 165px 140px 165px;
     background-color: var(--deep-jungle-green);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Main_description_2{
     display: flex;
@@ -26,14 +30,9 @@
 }
 
 .Main_name2{
-    
-
-    padding-left: 254px;
-    padding-right: 254px;
-    padding-top: 140px;   
-    font-size: 26px;
-text-align: center;
-color: var(--white);
+    max-width: 950px;
+    text-align: center;
+    color: var(--white);
 }
 
 .color{
@@ -46,22 +45,15 @@ color: var(--white);
 }
 
 .description-kady {
-    margin-left: 165px;
     padding-right: 30px;
-    margin-bottom: 151px;
 }
 .description-aiysha{
     padding-right: 30px;
     padding-left: 30px;
-    margin-bottom: 151px;
 }
 
 .description-arthur{
     padding-left: 30px;
-    margin-right: 165px;
-
-    margin-bottom: 151px;
-
 }
 
 .Main_description_2 h5{
@@ -90,4 +82,44 @@ color: var(--white);
 }
 .size_main2{
     padding: 2px 0 0 0;
+}
+
+@media (max-width:1440px) and (min-width:768px) {
+    /* Home page main2 */
+    .Main_2{
+        padding: 100px 98px 100px 98px;
+    }
+
+    .Main_description_2{
+        flex-direction: column;
+    }
+    
+    .Main_description_2 p{
+        max-width: 573px;
+    }
+    
+    .Main_name2{
+        max-width: 470px;
+        text-align: center;
+    }
+
+    .Main_name2 h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    
+    .description-kady {
+        padding-right: 0px;
+    }
+
+    .description-aiysha{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .description-arthur{
+        padding-left: 0px;
+    }
+    
 }
