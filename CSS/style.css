@@ -342,7 +342,6 @@ Contact us main
     color: var(--white);
     display: flex;
     flex-direction: none;
-    /* justify-content: space-between; */
 }
 .Main_description{
     color: var(--light-coral);
@@ -368,8 +367,6 @@ Contact us main
     /* margin-right: -150px; */
     padding: 0;
     /* margin-left: 100px; */
-
-
 }
 .form_inputs:focus{
     border-color: var(--rapture-blue);
@@ -387,7 +384,6 @@ Contact us main
     border-right: none;
     background-color: transparent;
     outline: none;
-    /* align-items: space-between; */
     width: 540px;
 }
 .Message{
@@ -410,9 +406,6 @@ Contact us main
 .name{
     padding-top:0;
 }
-/* : :required{
-    body:
-} */
 /* -----------------
 Desktop media query to 768px
 ------------------- */
