@@ -9,25 +9,37 @@
     --dark-green: #002529;
 }
 
-.people_container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.Main_people h2{
-    padding-top: 140px;
-    margin-left: 290px;
-    margin-right: 260px;
-    margin-bottom: 64px;
-    font-weight: 730;
-font-size: 52px;
-    width: 920px;
-    height: 48px;
-    text-align: center;
-}
 .Main_1{
     color: var(--white);
     background-color: var(--deep-jungle-green);
 }
+
+.people_container{
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 30px;
+   text-align: center;
+   justify-items: center;
+   align-items: center;
+   justify-content: center;
+  padding-top: 64px;
+  padding-bottom: 168px;
+  margin-left: 165px;
+  margin-right: 165px;
+  /* padding-left: 400px;
+  padding-right: 400px; */
+}
+.Main_people h2{
+    color: var(--white);
+    text-align: center;
+    padding: 140px 260px 64px 260px;
+    font-weight: 730;
+font-size: 52px;
+    height: 48px;
+    text-align: center;
+}
+
 .Main_1 img{
     width: 96px;
     height: 96px;
@@ -43,16 +55,12 @@ font-size: 52px;
     background-color: var(--sacramento-state-green);
     width: 350px;
     height: 253px;
-    margin-left: 165px;
-    margin-right: 30px;
 }
 .box-christian, .box-griffin{
     text-align: center;
     background-color: var(--sacramento-state-green);
     width: 350px;
     height: 253px;
-    margin-left: 30px;
-    margin-right: 30px;
 
 }
 .box-cruz, .box-aden{
@@ -60,19 +68,16 @@ font-size: 52px;
     background-color: var(--sacramento-state-green);
     width: 350px;
     height: 253px;
-    margin-right: 165px;
-    margin-left: 30px;
 }
 
 .box-nikita, .box-christian, .box-cruz{
-    padding-top: 32px;
-    margin-top: 64px;
-    margin-bottom: 76px;
+     padding-top: 32px;
+     margin-top: 30px;
 }
 
 .box-drake, .box-griffin, .box-aden{
     padding-top: 32px;
-    margin-bottom: 168px;
+    margin-top: 30px;
 
 }
 
