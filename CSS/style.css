@@ -293,6 +293,17 @@ Background patterns
     left: 0;
     top: 0; 
 }
+.bg-pattern-about-2-contact-1 {
+    position: absolute;
+    left: -100px;
+    bottom: 390px; 
+}
+.bg-pattern-contact-2 {
+    position: absolute;
+    right: -100px;
+    bottom: 0; 
+}
+
 
 /* About main 2 */
 
@@ -337,7 +348,9 @@ Contact us main
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--midnight-green);
-    padding: 73px 165px 13px 165px;
+    padding: 107px 165px 90px 165px;
+    position: relative;
+    overflow: hidden;
 }
 .Main_name{
     color: var(--white);
