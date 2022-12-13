@@ -363,26 +363,29 @@ Contact us main
     margin-right: 80px;
 }
 .column2{
-    margin-top: -60px;
+    margin-top: -25px;
     margin-right: -150px;
+    padding: 0;
     /* margin-left: 100px; */
 
 }
     .form_inputs{
+    padding-left: 15px;
     display: flex;
     flex-direction: column;
     border: 1px solid var(--white);
     color: var(--white);
+    padding-top: 24px;
+    padding-bottom: 27px;
     border-top: none;
     border-left: none;
     border-right: none;
     background-color: transparent;
-    padding: 26px 0 40px 15px;
+    
     width: 540px;
-    /* margin-top: -40px; */
 }
 .Message{
-    padding: 25px 0 50px 15px;
+    padding: 25px 0 100px 15px;
 }
 .submit{
     margin-top: 20px;
@@ -393,6 +396,13 @@ Contact us main
 }
 .knopka{
     margin-top: 10px;
+    border: none;
+}
+::placeholder {
+    color: var(--rapture-blue);
+}
+.name{
+    padding-top:0;
 }
 /* -----------------
 Desktop media query to 768px
