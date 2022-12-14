@@ -11,24 +11,24 @@
 
 .Main_1{
     color: var(--white);
-    background-color: var(--deep-jungle-green);
+    background-color: var(--deep-jungle-green);  
 }
 
-.people_container{
+.directors{
     display: grid;
     grid-template-rows: 350px 350px;
     grid-template-columns: 350px 350px 350px;
     grid-gap: 30px;
-   text-align: center;
-   justify-items: center;
-   align-items: center;
-   justify-content: center;
-  padding-top: 64px;
-  padding-bottom: 168px;
-  margin-left: 165px;
-  margin-right: 165px;
-  /* padding-left: 400px;
-  padding-right: 400px; */
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 168px;
+    margin-left: 165px;
+    margin-right: 165px;
+    /* padding-left: 400px;
+    padding-right: 400px; */
 }
 .Main_people h2{
     color: var(--white);
@@ -40,46 +40,24 @@ font-size: 52px;
     text-align: center;
 }
 
-.Main_1 img{
+.Main_1 .about_main1_img{
     width: 96px;
     height: 96px;
     border-radius: 50%;
     border: 2px solid var(--rapture-blue);
-}
-.Main_1 .description{
-    display: none;
+    margin-top: 32px;
 }
 
-.box-nikita, .box-drake{
-    text-align: center;
+.director{
+  text-align: center;
     background-color: var(--sacramento-state-green);
-    width: 350px;
-    height: 253px;
-}
-.box-christian, .box-griffin{
-    text-align: center;
-    background-color: var(--sacramento-state-green);
-    width: 350px;
-    height: 253px;
-
-}
-.box-cruz, .box-aden{
-    text-align: center;
-    background-color: var(--sacramento-state-green);
+    margin-top: 40px;
     width: 350px;
     height: 253px;
 }
 
-.box-nikita, .box-christian, .box-cruz{
-     padding-top: 32px;
-     margin-top: 30px;
-}
 
-.box-drake, .box-griffin, .box-aden{
-    padding-top: 32px;
-    margin-top: 30px;
 
-}
 
 .Main_1 .name{
     padding-top: 16px;
@@ -88,14 +66,17 @@ font-size: 52px;
 }
 
 .Main_1 button{
+  margin-top: 36px;
     color: var(--sacramento-state-green);
     width: 56px;
     height: 56px;
-    margin-top: 35px;
     border-radius: 50%;
     background-color:var(--light-coral);
     border: none;
+    /* display: flex; */
+    /* justify-content: center; */
 }
+
 .Main_1 button:hover{
     background-color: var(--rapture-blue);
 }
@@ -115,3 +96,35 @@ font-size: 52px;
     margin-top: -4px;
     transform: rotate(90deg);
   }
+
+  .job{
+    font-style: italic;
+    margin-top: 2px;
+  }
+
+  /* .people_container .blank-2 .icons path {
+    fill: var(--white);
+    transition: all 0.3s;
+  }
+  
+  .people_container .blank-2 .icons svg:hover path {
+    fill: var(--lightCoral);
+    cursor: pointer;
+  }
+  .people_container .button:hover,
+.people_container .button.active {
+  background-color: var(--raptureBlue);
+  cursor: pointer;
+}
+
+.people_container .button.active img {
+  transform: rotate(45deg);
+}
+
+.people_container .button.active:hover {
+  background-color: var(--lightCoral);
+}
+*/
+.hidden {
+  display: none;
+}
