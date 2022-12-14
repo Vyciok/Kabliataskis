@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap"/>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <link rel="stylesheet" href="../CSS/footer.css">
     <title>Contact Page</title>
 </head>
@@ -52,13 +53,18 @@
     </div>
 </div>
 <div= class="column2">
-        <div class="form ">
-            <form class="forms_1">
-                <input type="text" name="name" class="form_inputs name" placeholder="Name" required>
-                <input type="email" name="name" class="form_inputs" placeholder="Email Address" required>
-                <input type="text" name="name" class="form_inputs" placeholder="Company Name" required>
-                <input type="text" name="name" class="form_inputs" placeholder="Title" required>
-                <input type="text" name="name" class="form_inputs Message" placeholder="Message" required>
+        <div class="form">
+            <form class="forms_1" id="form">
+                <input type="text" id="name" name="name" class="form_inputs name" placeholder="Name" required>
+                <div  class="text_eror" id="name-errors"></div>
+                <input type="email" id="email" name="email" class="form_inputs" placeholder="Email Address" required>
+                <div  class="text_eror" id="email-errors"></div>
+                <input type="text" id="company_name" name="name" class="form_inputs" placeholder="Company Name" required>
+                <div  class="text_eror" id="company-errors"></div>
+                <input type="text" id="title" name="name" class="form_inputs" placeholder="Title" required>
+                <div  class="text_eror" id="title-errors"></div>
+                <input type="text" id="mesage" name="name" class="form_inputs Message" placeholder="Message" required>
+                <div  class="text_eror" id="mesage-errors"></div>
                 <div class="knopka"><input type="submit" value="Submit" class="primary_btn-light:hover btn submit knopka"></div>
             </form>
         </div>
@@ -105,5 +111,6 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../JavaScript/Requared.js"></script>
 </body>
 </html>
