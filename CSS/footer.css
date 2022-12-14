@@ -7,10 +7,13 @@
     background: #002529;
     color: white;
     overflow-x: hidden;
+    position: relative;
+    z-index: 10;
+    width: 100%;
   }
   
   .links a {
-    margin-right: 40px;
+    margin-right: 2.5em;
   }
 
   a{
@@ -60,3 +63,26 @@
   .fa-facebook:hover{
     color: #1877f2; color:red;
   }
+
+  @media (max-width:1440px) and (min-width:768px) {
+    .footer-section-2{
+        padding: 56px 40px 56px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+      }
+      .col1_col2 {
+        justify-content: space-between;
+      }
+      .col-3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 50px;
+      }
+      .icons{
+        margin-left: -15px;
+      }
+
+}
