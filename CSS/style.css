@@ -475,15 +475,15 @@ Contact us main
     padding-top:0;
 }
 .error-field{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid var(--light-coral);
      
     /* box-shadow: 3px 3px 20px rgb(219, 76, 63); ;  */
  }
  .error-field::placeholder{
-    color: red;
+    color: var(--light-coral);
  }
  .error-label{
-     color: red !important;
+     color: var(--light-coral) !important;
      padding-left: 15px;
  }
  .text_eror{
