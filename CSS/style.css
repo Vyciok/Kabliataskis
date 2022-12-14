@@ -509,7 +509,7 @@ Desktop media query to 768px
         padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
         padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
     }; */
-};
+}
 /* -------------------
 /* @media (max-width:1440px) and (min-width:768px) {
     .container_sides_padding_desktop {
