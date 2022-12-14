@@ -30,7 +30,7 @@
   /* padding-left: 400px;
   padding-right: 400px; */
 }
-.Main_people h2{
+.wrapper h2{
     color: var(--white);
     text-align: center;
     padding: 140px 260px 64px 260px;
@@ -57,12 +57,9 @@ font-size: 52px;
 }
 
 
-
-
 .Main_1 .name{
     padding-top: 16px;
     color: var(--rapture-blue);
-    
 }
 
 .Main_1 button{
@@ -73,34 +70,73 @@ font-size: 52px;
     border-radius: 50%;
     background-color:var(--light-coral);
     border: none;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 .Main_1 button:hover{
     background-color: var(--rapture-blue);
 }
 
-.rectangle {
-    height: 4px;
-    width: 16px;
-    background-color:var(--sacramento-state-green);
-    margin-left: 20px;
-    margin-top: 4px;
-  }
-  .rectangle-copy{
-    height: 4px;
-    width: 16px;
-    background-color:var(--sacramento-state-green);
-    margin-left: 20px;
-    margin-top: -4px;
-    transform: rotate(90deg);
-  }
-
   .job{
     font-style: italic;
     margin-top: 2px;
   }
+
+ 
+.director .button.active {
+  background-color: var(--rapture-blue);
+  margin-top: 55px ;
+  position: relative;
+}
+.director .button.active svg{
+  transform: rotate(45deg);
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.director .button svg{
+  margin-top: 1px;
+}
+
+.director .button.active:hover{
+  background-color: var(--light-coral);
+}
+
+
+.director .figures{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.director .blank2 .figures path{
+fill: var(--white);
+transition: all 0.3s;
+}
+.director .blank2 .figures svg:hover path{
+  fill: var(--light-coral);
+  cursor: pointer;
+}
+.director .figures .icon{
+color: var(--white);
+size-adjust: 30px;
+}
+
+
+.director .blank2 .name{
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 24px;
+  height: 28px;
+  width: 302px;
+}
+.director .blank2 .description{
+  text-align: center;
+  margin-top: 8px;
+  margin-left: 45px;
+  height: 75px;
+  width: 254px;
+
+}
 
   /* .people_container .blank-2 .icons path {
     fill: var(--white);

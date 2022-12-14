@@ -1,4 +1,5 @@
 "use strict";
+
 const buttons = document.querySelectorAll(".button");
 
 if (buttons.length) {
