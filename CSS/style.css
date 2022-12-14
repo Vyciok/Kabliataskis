@@ -474,6 +474,25 @@ Contact us main
 .name{
     padding-top:0;
 }
+.error-field{
+    border-bottom: 1px solid red;
+     
+    /* box-shadow: 3px 3px 20px rgb(219, 76, 63); ;  */
+ }
+ .error-field::placeholder{
+    color: red;
+ }
+ .error-label{
+     color: red !important;
+     padding-left: 15px;
+ }
+ .text_eror{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12,55px;
+    font-style: italic;
+    padding-top: 5px;
+ }
 /* -----------------
 Desktop media query to 768px
 ------------------- */
