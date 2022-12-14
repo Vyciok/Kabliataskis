@@ -75,6 +75,9 @@
       .col1_col2 {
         justify-content: space-between;
       }
+      .col-2{
+        text-align: end;
+      }
       .col-3 {
         display: flex;
         justify-content: space-between;
@@ -84,5 +87,4 @@
       .icons{
         margin-left: -15px;
       }
-
 }
