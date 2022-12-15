@@ -11,10 +11,13 @@
 .Header_main{
     background-color: var(--midnight-green);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: var(--white);
     position: relative;
     overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .Header_main h1{
     font-weight: 700;
@@ -22,10 +25,11 @@
     line-height: 100px;
   
     width: 350px;
-    margin-left: 165px;
+    /* margin-left: 165px; */
     padding-right: 30px;
-    margin-bottom: 176px;
-    margin-top: 111px;
+    padding-top: 106px;
+    /* margin-bottom: 176px;
+    margin-top: 111px; */
 }
 .about_banner_section_divider {
     width: 50px;
@@ -36,6 +40,7 @@
     margin-bottom: 40px;
 }
 .Header_main p{
+    text-align: center;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;

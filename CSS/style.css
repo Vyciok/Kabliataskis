@@ -357,6 +357,16 @@ Background patterns
     right: -100px;
     bottom: 0; 
 }
+.bg-pattern-about-2-main-1{
+    position: absolute;
+    float: inline-start;
+    left: -100px;
+}
+.bg-pattern-home-4-about-3{
+    position: absolute;
+    right: 0;
+    bottom: -960px;
+}
 
 
 /* About main 2 */
@@ -374,10 +384,14 @@ Background patterns
 .about-img_container{
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 0px 165px 151px 165px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .about-img_about{
     width: 70%;
+    padding-bottom: 56px;
 }
 
 /* ----------------------
@@ -409,6 +423,7 @@ Contact us main
 .Main_name{
     color: var(--white);
     display: flex;
+    padding-bottom: 40px;
     flex-direction: none;
 }
 .Main_description{
@@ -416,7 +431,7 @@ Contact us main
     font-weight: 300;
     font-size: 35px;
     line-height: 30px;
-    padding: 60px 0 13px 0;
+    padding: 20px 0 25px 0;
 }
 .Main_description_p{
     color: var(--white);
@@ -431,7 +446,7 @@ Contact us main
     margin-right: 80px;
 }
 .column2{
-    margin-top: -25px;
+    margin-top: -10px;
     /* margin-right: -150px; */
     padding: 0;
     /* margin-left: 100px; */
@@ -440,13 +455,13 @@ Contact us main
     border-color: var(--rapture-blue);
 }
     .form_inputs{
-    padding-left: 15px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     border: 1px solid var(--white);
     color: var(--white);
-    padding-top: 24px;
-    padding-bottom: 27px;
+    padding-top: 20px;
+    padding-bottom: 34px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -455,7 +470,7 @@ Contact us main
     width: 540px;
 }
 .Message{
-    padding: 25px 0 100px 15px;
+    padding: 25px 0 58px 15px;
 }
 .submit{
     margin-top: 20px;
