@@ -80,11 +80,14 @@ font-size: 52px;
     font-style: italic;
     margin-top: 2px;
   }
-
+.director button.active .director{
+  background-color: var(--dark-green);
+}
  
-.director .button.active {
+.director .button.active  {
   background-color: var(--rapture-blue);
-  margin-top: 55px ;
+  margin-top: 61px ;
+  text-align: center;
   position: relative;
 }
 .director .button.active svg{
@@ -121,7 +124,6 @@ color: var(--white);
 size-adjust: 30px;
 }
 
-
 .director .blank2 .name{
   text-align: center;
   margin-top: 16px;
@@ -131,7 +133,8 @@ size-adjust: 30px;
 }
 .director .blank2 .description{
   text-align: center;
-  margin-top: 8px;
+  margin-top: 2px;
+  padding-top: 14px;
   margin-left: 45px;
   height: 75px;
   width: 254px;
