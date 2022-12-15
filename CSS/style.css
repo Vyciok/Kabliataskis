@@ -431,7 +431,7 @@ Contact us main
     margin-right: 80px;
 }
 .column2{
-    margin-top: -25px;
+    margin-top: -10px;
     /* margin-right: -150px; */
     padding: 0;
     /* margin-left: 100px; */
@@ -440,13 +440,13 @@ Contact us main
     border-color: var(--rapture-blue);
 }
     .form_inputs{
-    padding-left: 15px;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     border: 1px solid var(--white);
     color: var(--white);
-    padding-top: 16px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 34px;
     border-top: none;
     border-left: none;
     border-right: none;
