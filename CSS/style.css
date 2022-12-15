@@ -356,6 +356,16 @@ Background patterns
     right: -100px;
     bottom: 0; 
 }
+.bg-pattern-about-2-main-1{
+    position: absolute;
+    float: inline-start;
+    left: -100px;
+}
+.bg-pattern-home-4-about-3{
+    position: absolute;
+    right: 0;
+    bottom: -960px;
+}
 
 
 /* About main 2 */
