@@ -373,10 +373,14 @@ Background patterns
 .about-img_container{
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 0px 165px 151px 165px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .about-img_about{
     width: 70%;
+    padding-bottom: 56px;
 }
 
 /* ----------------------
