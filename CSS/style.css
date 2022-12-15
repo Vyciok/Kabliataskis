@@ -626,6 +626,10 @@ Tablet media query from 1440px to 768px
 Mobile media query from 768px
 ----------------------*/
 @media (max-width:768px) {
+    /*nav */
+    .header_nav{
+        padding: 48px 24px 13px 24px;
+    } 
     /* Home page Header banner */
     .Header_banner{
         padding: 77px 24px 197px 24px;
