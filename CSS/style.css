@@ -203,6 +203,7 @@ Header baner
     display: flex;
     flex-direction: row;
     position: relative;
+    overflow: hidden;
 }
 .h2_title{
     width: 800px;
@@ -493,9 +494,9 @@ Contact us main
     padding-top: 5px;
  }
 /* -----------------
-Desktop media query to 768px
+Mobile nav media query
 ------------------- */
-@media (max-width:768px) and (min-width:375px) {
+@media (max-width:768px) {
     .header_nav{
         padding: 56px 24px 13px 24px;
     }
@@ -505,20 +506,7 @@ Desktop media query to 768px
     .open_btn svg{
         display: block ;
     }
-    /* .container_sides_padding {
-        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-    }; */
 }
-/* -------------------
-/* @media (max-width:1440px) and (min-width:768px) {
-    .container_sides_padding_desktop {
-        padding-right: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-        padding-left: calc(15px + (100vw - 768px) * (15 - 60) / (768 -  1000));
-    }
-} */
-
-/* ------------------- */
 
 /* -------------------
 Tablet media query from 1440px to 768px 
@@ -601,6 +589,22 @@ Tablet media query from 1440px to 768px
         bottom: -22px; 
         z-index: 5;
     }
+    /* about main2 */
+    .about-main_clients{
+        color: var(--white);
+        text-align: center;
+        padding: 100px 40px 50px 40px;
+    }
+    .about-img_container{
+        display: flex;
+        align-items: center;
+        padding: 0px 40px 100px 40px;
+    }
+    .bg-pattern-about-4 {
+        position: absolute;
+        left: 0;
+        top: -100px; 
+    }
 }
 
 /* -------------------
@@ -612,6 +616,7 @@ Mobile media query from 768px
         padding: 77px 24px 197px 24px;
     }
     .h2_title {
+        max-width: 327px;
         font-weight: 700;
         font-size: 40px;
         line-height: 40px;
@@ -636,7 +641,7 @@ Mobile media query from 768px
     }
     /*  footer 1 */
     .footer_1{
-        padding: 83px 24px 83px 24px; 
+        padding: 83px 24px 93px 24px; 
         flex-direction: column;
 
     }
