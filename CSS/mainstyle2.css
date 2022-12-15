@@ -26,7 +26,7 @@
 }
 
 .Main_description_2 p{
-    max-width: 350px;
+    width: 350px;
 }
 
 .Main_name2{
@@ -84,7 +84,7 @@
     padding: 2px 0 0 0;
 }
 
-@media (max-width:1440px) and (min-width:768px) {
+@media (max-width:1440px) {
     /* Home page main2 */
     .Main_2{
         padding: 100px 98px 100px 98px;
@@ -95,6 +95,7 @@
     }
     
     .Main_description_2 p{
+        width: auto;
         max-width: 573px;
     }
     
@@ -120,6 +121,16 @@
     
     .description-arthur{
         padding-left: 0px;
+    } 
+}
+
+
+@media (max-width:768px) {
+    /* Home page main2 */
+    .Main_2{
+        padding: 140px 24px 164px 24px;
     }
-    
+    .Main_description_2 p{
+        max-width: 327px;
+    }
 }

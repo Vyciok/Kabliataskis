@@ -10,23 +10,40 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap"/>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <link rel="stylesheet" href="../CSS/footer.css">
     <title>Contact Page</title>
 </head>
 <body>
     <header>
-        <div class="header_nav">
-            <div class="header_nav_links">
-                <div class="left_header">
-                    <h2 class="h2 nav_h2">talent</h2>
-                    <a class="nav link nav_word body_1" href="../index.html">home</a>
-                    <a class="nav link nav_word body_1" href="about.html">about</a>
-                </div>
-                <div class="right_header">
-                    <a class=" btn primary_btn-light body_1" href="contact.html">contact us</a>
-                </div>
-            </div>
-        </div>
+		<div class="header_nav">
+			<div class="header_nav_links">
+				<div class="left_header">
+					<h2 class="h2 nav_h2">talent</h2>
+						<a class="nav link nav_word body_1" href="../index.html">home</a>
+						<a class="nav link nav_word body_1" href="about.html">about</a>
+				</div>
+				<div class="right_header">
+					<a class=" btn primary_btn-light body_1" href="#">contact us</a>
+					<div class="open_btn" id="hambuger">
+						<svg  class="mobile_nav_open" xmlns="http://www.w3.org/2000/svg" width="20" height="17"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h20v3H0zM0 7h20v3H0zM0 14h20v3H0z"/></g></svg>
+					</div>
+				</div>
+				
+			</div>
+			<div class="mobile_overlay_container" id="mobileNav">
+				<div class="mobile_nav_inner">
+					<p class="mobile_nav_close"><svg id="close" class="mobile_nav_close_btn" xmlns="http://www.w3.org/2000/svg" width="18" height="17"><path fill="#FFF" fill-rule="evenodd" d="M15.01.368l2.122 2.122-6.01 6.01 6.01 6.01-2.122 2.122L9 10.622l-6.01 6.01L.868 14.51 6.88 8.5.87 2.49 2.988.368 9 6.38 15.01.37z"/></svg></i></p>
+					<nav>
+						<ul>
+							<li><a class="nav link nav_word body_1" href="../index.html">home</a></li>
+							<li><a class="nav link nav_word body_1" href="about.html">about</a></li>
+						</ul>
+					</nav>
+					<div><a class=" btn primary_btn-light body_1" href="#">contact us</a></div>
+				</div>
+			</div>	
+		</div>
         <div class="Header_main">
         </div>
     </header>
@@ -54,13 +71,18 @@
     </div>
 </div>
 <div= class="column2">
-        <div class="form ">
-            <form class="forms_1">
-                <input type="text" name="name" class="form_inputs name" placeholder="Name" required>
-                <input type="email" name="name" class="form_inputs" placeholder="Email Address" required>
-                <input type="text" name="name" class="form_inputs" placeholder="Company Name" required>
-                <input type="text" name="name" class="form_inputs" placeholder="Title" required>
-                <input type="text" name="name" class="form_inputs Message" placeholder="Message" required>
+        <div class="form">
+            <form class="forms_1" id="form">
+                <input type="text" id="name" name="name" class="form_inputs name" placeholder="Name" required>
+                <div  class="text_eror" id="name-errors"></div>
+                <input type="email" id="email" name="email" class="form_inputs" placeholder="Email Address" required>
+                <div  class="text_eror" id="email-errors"></div>
+                <input type="text" id="company_name" name="name" class="form_inputs" placeholder="Company Name" required>
+                <div  class="text_eror" id="company-errors"></div>
+                <input type="text" id="title" name="name" class="form_inputs" placeholder="Title" required>
+                <div  class="text_eror" id="title-errors"></div>
+                <input type="text" id="mesage" name="name" class="form_inputs Message" placeholder="Message" required>
+                <div  class="text_eror" id="mesage-errors"></div>
                 <div class="knopka"><input type="submit" value="Submit" class="primary_btn-light:hover btn submit knopka"></div>
             </form>
         </div>
@@ -107,5 +129,7 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../JavaScript/Requared.js"></script>
+    <script src="../JS/main.js"></script>
 </body>
 </html>
