@@ -415,7 +415,7 @@ Contact us main
     font-weight: 300;
     font-size: 35px;
     line-height: 30px;
-    padding: 60px 0 13px 0;
+    padding: 15px 0 13px 0;
 }
 .Main_description_p{
     color: var(--white);
@@ -444,8 +444,8 @@ Contact us main
     flex-direction: column;
     border: 1px solid var(--white);
     color: var(--white);
-    padding-top: 24px;
-    padding-bottom: 27px;
+    padding-top: 16px;
+    padding-bottom: 24px;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -454,7 +454,7 @@ Contact us main
     width: 540px;
 }
 .Message{
-    padding: 25px 0 100px 15px;
+    padding: 25px 0 58px 15px;
 }
 .submit{
     margin-top: 20px;
