@@ -18,12 +18,8 @@
     gap: 30px;
 }
 .Header_main{
-    background-color: var(--midnight-green);
-    
+    background-color: var(--midnight-green);  
     color: var(--white);
-    /* position: relative;
-    overflow: hidden;
-    flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
 }
@@ -35,30 +31,20 @@
     width: 350px;
     text-align: center;
     margin-bottom: 40px;
-    /* margin-left: 165px; */
-    /* padding-right: 30px;
-    padding-top: 106px; */
-    /* margin-bottom: 176px;
-    margin-top: 111px; */
 }
 .about_banner_section_divider {
     width: 50px;
     height: 4px;
     background-color: var(--light-coral);
     border: none;
-    /* margin-top: 111px; */
     margin-bottom: 40px;
 }
 .Header_main p{
     text-align: center;
     font-weight: 600;
     font-size: 18px;
-    line-height: 28px;
-  
+    line-height: 28px; 
     width: 730px;
-    /* margin-right: 165px;
-    margin-bottom: 120px;
-    margin-left: 158px; */
 }
 
 /* -------------------
