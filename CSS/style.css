@@ -254,6 +254,9 @@ Home Main 1
     display: flex;
     flex-direction: row;
 }
+.maim_description_2{
+margin-bottom: 120px;
+}
 .home_main-1_title_container {
     color: var(--white);
     width: 50%;
@@ -384,14 +387,13 @@ Background patterns
 .about-img_container{
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     padding: 0px 165px 151px 165px;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* flex-wrap: wrap;
+    justify-content: center; */
 }
 .about-img_about{
     width: 70%;
-    padding-bottom: 56px;
 }
 
 /* ----------------------

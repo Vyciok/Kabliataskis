@@ -11,43 +11,49 @@
 .mainAbout{
     background-color: var(--midnight-green);
     display: flex;
-
     justify-content: space-around;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
     gap: 30px;
+    /* padding: 120px 0 120px 0; */
 }
 .Header_main{
-    background-color: var(--midnight-green);
+    background-color: var(--midnight-green);  
+    display: flex;
     color: var(--white);
-
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    overflow: hidden;
 }
 .Header_main h1{
     font-weight: 700;
     font-size: 64px;
     line-height: 100px;
+    height: 100px;
     width: 350px;
     text-align: center;
     margin-bottom: 40px;
+    margin: 111px 30px 176px 165px;
 }
 .about_banner_section_divider {
     width: 50px;
     height: 4px;
     background-color: var(--light-coral);
     border: none;
-    /* margin-top: 111px; */
+    margin-top: 111px;
     margin-bottom: 40px;
 }
 .Header_main p{
-    text-align: center;
+    /* text-align: center; */
     font-weight: 600;
     font-size: 18px;
-    line-height: 28px;
-  
+    line-height: 28px; 
     width: 730px;
+    height: 112px;
+    margin: 0 165p 120px 0;
 }
 
 /* -------------------

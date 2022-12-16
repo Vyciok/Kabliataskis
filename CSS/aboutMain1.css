@@ -11,7 +11,8 @@
 
 .Main_1{
     color: var(--white);
-    background-color: var(--deep-jungle-green);  
+    background-color: var(--deep-jungle-green);
+    overflow: hidden;  
 }
 
 .directors{
