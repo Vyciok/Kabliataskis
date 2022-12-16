@@ -122,6 +122,9 @@
     .description-arthur{
         padding-left: 0px;
     } 
+    .photo img{
+        margin-top: 16px;
+    }
 }
 
 
