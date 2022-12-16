@@ -8,14 +8,22 @@
     --sacramento-state-green: #012F34;
     --dark-green: #002529;
 }
-.Header_main{
+.mainAbout{
     background-color: var(--midnight-green);
     display: flex;
-    justify-content: space-evenly;
-    color: var(--white);
-    position: relative;
-    overflow: hidden;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
+}
+.Header_main{
+    background-color: var(--midnight-green);
+    
+    color: var(--white);
+    /* position: relative;
+    overflow: hidden;
+    flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
 }
@@ -25,9 +33,11 @@
     line-height: 100px;
     height: 100px;
     width: 350px;
+    text-align: center;
+    margin-bottom: 40px;
     /* margin-left: 165px; */
-    padding-right: 30px;
-    padding-top: 106px;
+    /* padding-right: 30px;
+    padding-top: 106px; */
     /* margin-bottom: 176px;
     margin-top: 111px; */
 }
@@ -36,7 +46,7 @@
     height: 4px;
     background-color: var(--light-coral);
     border: none;
-    margin-top: 111px;
+    /* margin-top: 111px; */
     margin-bottom: 40px;
 }
 .Header_main p{
@@ -46,9 +56,9 @@
     line-height: 28px;
     height: 112px;
     width: 730px;
-    margin-right: 165px;
+    /* margin-right: 165px;
     margin-bottom: 120px;
-    margin-left: 158px;
+    margin-left: 158px; */
     
     
 }
