@@ -222,7 +222,11 @@ Header baner
 }
 .p_header{
     width: 370px;
+
+    margin-right: 100px;
+
     margin-right: 165px;
+
     margin-left: 40px;
 }
 .red{
