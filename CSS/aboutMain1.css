@@ -70,6 +70,7 @@ font-size: 52px;
     border-radius: 50%;
     background-color:var(--light-coral);
     border: none;
+    cursor: pointer;
 }
 
 .Main_1 button:hover{
@@ -89,10 +90,11 @@ font-size: 52px;
   margin-top: 61px ;
   text-align: center;
   position: relative;
+  cursor: pointer;
 }
 .director .button.active svg{
   transform: rotate(45deg);
-  margin-right: 1px;
+  /* margin-right: 1px; */
   margin-top: 1px;
 }
 
