@@ -145,6 +145,7 @@ a:link {
 .mobile_overlay_container{
     display: none;
    position: fixed;
+   text-align: left;
    top: 0;
    right: 0;
    width: 100vw;
@@ -526,6 +527,9 @@ Mobile nav media query
     }
     .open_btn svg{
         display: block ;
+    }
+    .nav_word{
+        margin: 0;
     }
 }
 
