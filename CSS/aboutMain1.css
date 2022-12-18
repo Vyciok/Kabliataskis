@@ -34,7 +34,11 @@
 .wrapper h2{
     color: var(--white);
     text-align: center;
-    padding: 140px 260px 64px 260px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    /* padding: 140px 260px 64px 260px; */
     font-weight: 730;
 font-size: 52px;
     height: 48px;
@@ -185,4 +189,27 @@ size-adjust: 30px;
   .director .button.active{
     margin-top: 17px;
   }
+}
+@media (max-width:768px){
+  .Main_name1 .wrapper{
+    flex-direction: column;
+  }
+  .Main_name1 .wrapper{
+
+    /* padding: 0px 24px 48px 24px; */
+    width: 327px;
+    height: 32px;
+    padding-bottom:  48px;
+  }
+  .directors{
+    grid-template-rows: 6*327px;
+    grid-template-columns: 327px;
+    grid-gap: 52px 0px;
+  }
+  .director{
+    width: 327px;
+    height: 253px;
+    /* margin-top: -50px; */
+  }
+
 }

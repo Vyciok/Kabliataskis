@@ -679,4 +679,15 @@ Mobile media query from 768px
         text-align: center;
         margin-bottom: 24px;
     }
+    /* ----------AboutMain2----------- */
+    .about-img_container{
+        display: flex;
+        align-items: center;
+       flex-direction: column;
+        text-align: center;
+        margin-top: 64px;
+        padding: 0px 165px 151px 165px;
+        gap: 56px;
+        justify-content: center;
+    }
 }
