@@ -59,7 +59,7 @@
 /* -------------------
 Tablet media query from 1440px to 768px 
 ----------------------*/
-@media (max-width:1440px) {
+@media (max-width:1439px) {
     .Header_main{
         padding: 90px 40px 102px 40px;
         flex-direction:column;
@@ -86,4 +86,18 @@ Tablet media query from 1440px to 768px
         margin-right: 0px;
         margin-bottom: 0px;
     }
+}
+@media (max-width:1439px) {
+    .mainAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .about_banner_section_divider{
+        display: none;
+
+    }
+
 }
