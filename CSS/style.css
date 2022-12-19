@@ -429,9 +429,8 @@ Contact us main
 }
 .Main_name{
     color: var(--white);
-    display: flex;
+    
     padding-bottom: 40px;
-    flex-direction: none;
 }
 .Main_description{
     color: var(--light-coral);
@@ -629,6 +628,46 @@ Tablet media query from 1440px to 768px
         position: absolute;
         left: 0;
         top: -100px; 
+    }
+    /* contact us main */
+    .main_contact_us{
+        padding: 122px 113px 123px 115px;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+    .Main_description_p{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: content-box;
+        width: 480px;
+    }
+    .column2{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        padding: auto;
+    }
+    .column1{
+        padding: auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .knopka{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .bg-pattern-about-2-contact-1 {
+        position: absolute;
+        left: -100px;
+        bottom: 390px;
+        top: 113px; 
     }
 }
 
