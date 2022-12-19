@@ -599,6 +599,13 @@ Tablet media query from 1440px to 768px
     .home_main-1_description_container {
         width: 100%;
     }
+    .bg-pattern-home-2 {
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .bg-pattern-home-3 {
         position: absolute;
         right: -100px;
@@ -711,6 +718,13 @@ Mobile media query from 768px
         align-items: center;
         text-align: center;
     }
+    .home_main-1_description_box > div {
+        margin: 0 0 48px 0;
+    }
+    .home_main-1_description_box .h3{
+        margin-top: 16px;
+    }
+
     /*  footer 1 */
     .footer_1{
         padding: 83px 24px 93px 24px; 
