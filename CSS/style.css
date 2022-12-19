@@ -635,7 +635,7 @@ Tablet media query from 1440px to 768px
     }
     /* contact us main */
     .main_contact_us{
-        padding: 122px 113px 123px 115px;
+        padding: 122px 113px 123px 105px;
         flex-direction: column;
         align-self: center;
         align-items: center;
@@ -742,9 +742,8 @@ Mobile media query from 768px
     }
     .Main_description_p{
         display: flex;
-        text-align: justify;
-        box-sizing: content-box;
-        width: 480px;
+        flex-wrap: wrap;
+        /* word-break: break-all; */
     }
     .column2{
         display: inline-block;
