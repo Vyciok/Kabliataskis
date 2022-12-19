@@ -375,6 +375,9 @@ Background patterns
     right: 0;
     bottom: -960px;
 }
+.bg-pattern-contact-2-clone{
+    display: none;
+}
 
 
 /* About main 2 */
@@ -728,5 +731,51 @@ Mobile media query from 768px
         padding: 0px 165px 151px 165px;
         gap: 56px;
         justify-content: center;
+    }
+    /* contact us main */
+    .main_contact_us{
+        padding: 122px 24px 123px 24px;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+    .Main_description_p{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: content-box;
+        width: 480px;
+    }
+    .column2{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        padding: auto;
+    }
+    .column1{
+        padding: auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .knopka{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .bg-pattern-about-2-contact-1 {
+        display: none; 
+    }
+    .bg-pattern-contact-2 {
+       display: none;
+    }
+    .bg-pattern-contact-2-clone{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: -100px;
     }
 }
