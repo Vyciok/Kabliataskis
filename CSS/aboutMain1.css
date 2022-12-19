@@ -34,11 +34,14 @@
 .wrapper h2{
     color: var(--white);
     text-align: center;
-    padding: 140px 260px 64px 260px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    /* padding: 140px 260px 64px 260px; */
     font-weight: 730;
 font-size: 52px;
     height: 48px;
-    text-align: center;
 }
 
 .Main_1  img{
@@ -58,13 +61,14 @@ font-size: 52px;
 }
 
 
-.Main_1 .name{
+.Main_1 .blank1 .name{
     padding-top: 16px;
     color: var(--rapture-blue);
 }
 
 .Main_1 button{
-  margin-top: 36px;
+  position: relative;
+  top: 36px;
     color: var(--sacramento-state-green);
     width: 56px;
     height: 56px;
@@ -77,6 +81,12 @@ font-size: 52px;
 .Main_1 button:hover{
     background-color: var(--rapture-blue);
 }
+.blank2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
 
   .job{
     font-style: italic;
@@ -88,9 +98,9 @@ font-size: 52px;
  
 .director .button.active  {
   background-color: var(--rapture-blue);
-  margin-top: 61px ;
   text-align: center;
   position: relative;
+  top: 12px;
   cursor: pointer;
 }
 .director .button.active svg{
@@ -129,44 +139,77 @@ size-adjust: 30px;
 
 .director .blank2 .name{
   text-align: center;
-  margin-top: 16px;
-  margin-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
   height: 28px;
   width: 302px;
+  /* margin-top: 35px; */
+
 }
 .director .blank2 .description{
   text-align: center;
-  margin-top: 2px;
-  padding-top: 14px;
-  margin-left: 45px;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
   height: 75px;
   width: 254px;
 
 }
 
-  /* .people_container .blank-2 .icons path {
-    fill: var(--white);
-    transition: all 0.3s;
-  }
-  
-  .people_container .blank-2 .icons svg:hover path {
-    fill: var(--lightCoral);
-    cursor: pointer;
-  }
-  .people_container .button:hover,
-.people_container .button.active {
-  background-color: var(--raptureBlue);
-  cursor: pointer;
-}
-
-.people_container .button.active img {
-  transform: rotate(45deg);
-}
-
-.people_container .button.active:hover {
-  background-color: var(--lightCoral);
-}
-*/
 .hidden {
   display: none;
+}
+
+@media (max-width:1439px){
+  .directors{
+    display: grid;
+    grid-template-rows: 281px  281px 281px;
+    grid-template-columns: 281px 281px;
+    grid-gap: 76px 11px;
+   
+  }
+  .director{
+    text-align: center;
+      margin-top: 76px;
+      width: 281px;
+      height: 253px;
+  }
+  .director .blank2 .description{
+    text-align: center;
+    height: 75px;
+    width: 233px;
+    margin-top: 43px;
+  
+  }
+  .director .blank2 .name{
+    padding-top: 35px;
+    width: 233px;
+    height: 28px;
+  }
+  .director .button.active{
+    margin-top: 17px;
+  }
+}
+@media (max-width:768px){
+  .Main_name1 .wrapper{
+    flex-direction: column;
+  }
+  .Main_name1 .wrapper{
+
+    /* padding: 0px 24px 48px 24px; */
+    width: 327px;
+    height: 32px;
+    padding-bottom:  48px;
+  }
+  .directors{
+    grid-template-rows: 6*327px;
+    grid-template-columns: 327px;
+    grid-gap: 52px 0px;
+  }
+  .director{
+    width: 327px;
+    height: 253px;
+    /* margin-top: -50px; */
+  }
+
 }

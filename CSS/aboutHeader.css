@@ -28,7 +28,7 @@
     position: relative;
     overflow: hidden;
 }
-.Header_main h1{
+.Header_main h2{
     font-weight: 700;
     font-size: 64px;
     line-height: 100px;
@@ -59,14 +59,14 @@
 /* -------------------
 Tablet media query from 1440px to 768px 
 ----------------------*/
-@media (max-width:1440px) {
+@media (max-width:1439px) {
     .Header_main{
         padding: 90px 40px 102px 40px;
         flex-direction:column;
         align-items: center;
         text-align: center;
     }
-    .Header_main h1{
+    .Header_main h2{
         font-weight: 700;
         font-size: 64px;
         line-height: 100px;
@@ -85,5 +85,49 @@ Tablet media query from 1440px to 768px
         width: 457px;
         margin-right: 0px;
         margin-bottom: 0px;
+    }
+}
+@media (max-width:1439px) {
+    .mainAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .about_banner_section_divider{
+        display: none;
+
+    }
+
+}
+@media (max-width:768px){
+    .Header_main{
+        flex-direction: column;
+    }
+    .Header_main p{
+        text-align: center;
+        justify-content: center;
+        font-size: 15px;
+        height: 196px;
+        width: 327px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+        /* position: absolute; */
+    }
+    .Header_main h2{
+        width: 327px;
+        height: 32px;
+        margin-top: 0px;
+        /* padding-left: 26px;
+        padding-right: 26px; */
+    }
+    .mainAbout{
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 40px;
+        margin-top: ;
+
     }
 }
