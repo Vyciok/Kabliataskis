@@ -432,15 +432,14 @@ Contact us main
 }
 .Main_name{
     color: var(--white);
-    
-    padding-bottom: 40px;
+    padding-bottom: 24px;
 }
 .Main_description{
     color: var(--light-coral);
     font-weight: 300;
     font-size: 35px;
     line-height: 30px;
-    padding: 20px 0 25px 0;
+    padding: 0px 0 25px 0;
 }
 .Main_description_p{
     color: var(--white);
@@ -491,12 +490,14 @@ Contact us main
 .knopka{
     margin-top: 10px;
     border: none;
+    color: #004047;
 }
 ::placeholder {
     color: var(--rapture-blue);
 }
 .name{
     padding-top:0;
+    padding-bottom: 16px;
 }
 .error-field{
     border-bottom: 1px solid var(--light-coral);
@@ -741,7 +742,7 @@ Mobile media query from 768px
     }
     .Main_description_p{
         display: flex;
-        flex-wrap: wrap;
+        text-align: justify;
         box-sizing: content-box;
         width: 480px;
     }
