@@ -70,11 +70,10 @@ Tablet media query from 1440px to 768px
         font-weight: 700;
         font-size: 64px;
         line-height: 100px;
-        height: 100px;
         width: 350px;
         margin-left: 0px;
-        padding-right: 0px;
-        margin-bottom: 34px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         margin-top: 0px;
     }
     .about_banner_section_divider {
@@ -91,16 +90,14 @@ Tablet media query from 1440px to 768px
     .mainAbout{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
         text-align: center;
     }
-    .about_banner_section_divider{
-        display: none;
-
-    }
-
 }
+
+/* -------------------
+mobile media query from 768px to 375px 
+----------------------*/
 @media (max-width:768px){
     .Header_main{
         flex-direction: column;
@@ -120,14 +117,10 @@ Tablet media query from 1440px to 768px
         width: 327px;
         height: 32px;
         margin-top: 0px;
-        /* padding-left: 26px;
-        padding-right: 26px; */
     }
     .mainAbout{
         flex-direction: column;
         gap: 16px;
         margin-bottom: 40px;
-        margin-top: ;
-
     }
 }

@@ -1,5 +1,4 @@
 * {
-
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -353,7 +352,8 @@ Background patterns
 .bg-pattern-about-4 {
     position: absolute;
     left: 0;
-    top: 0; 
+    top: 0;
+    z-index: 5; 
 }
 .bg-pattern-about-2-contact-1 {
     position: absolute;
@@ -370,10 +370,10 @@ Background patterns
     float: inline-start;
     left: -100px;
 }
-.bg-pattern-home-4-about-3{
+.bg-pattern-about-3{
     position: absolute;
     right: 0;
-    bottom: -960px;
+    bottom: 0px;
 }
 .bg-pattern-contact-2-clone{
     display: none;
@@ -429,6 +429,7 @@ Contact us main
     padding: 107px 165px 90px 165px;
     position: relative;
     overflow: hidden;
+    margin-top: -2px;
 }
 .Main_name{
     color: var(--white);
@@ -640,6 +641,11 @@ Tablet media query from 1440px to 768px
         left: 0;
         top: -100px; 
     }
+    .about-main_2 h2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+    }
     /* contact us main */
     .main_contact_us{
         padding: 122px 113px 123px 105px;
@@ -736,16 +742,28 @@ Mobile media query from 768px
         text-align: center;
         margin-bottom: 24px;
     }
+    /*  about banner bg pattern */
+    .bg-pattern-about-1-mobile-nav-1 {
+        position: absolute;
+        right: -100px;
+        bottom: -100px; 
+    }
     /* ----------AboutMain2----------- */
     .about-img_container{
         display: flex;
         align-items: center;
-       flex-direction: column;
+        flex-direction: column;
         text-align: center;
         margin-top: 64px;
-        padding: 0px 165px 151px 165px;
+        padding: 0px 80px 100px 80px;
         gap: 56px;
         justify-content: center;
+    }
+    .bg-pattern-about-4 {
+        position: absolute;
+        left: -100px;
+        top: -100px;
+        z-index: 5; 
     }
     /* contact us main */
     .main_contact_us{
