@@ -686,8 +686,13 @@ Mobile media query from 768px
        flex-direction: column;
         text-align: center;
         margin-top: 64px;
-        padding: 0px 165px 151px 165px;
         gap: 56px;
         justify-content: center;
+        padding-bottom: 151px;
     }
+    .about-img_about{
+        width: 70%;
+    }
+
+
 }

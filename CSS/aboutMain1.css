@@ -189,10 +189,18 @@ size-adjust: 30px;
   .director .button.active{
     margin-top: 17px;
   }
+.bg-pattern-home-4-about-3{
+  position: absolute;
+  right: 0;
+  bottom: -950px;
+}
 }
 @media (max-width:768px){
   .Main_name1 .wrapper{
     flex-direction: column;
+  }
+  .bg-pattern-about-4{
+    clip-path: polygon(20% 25% 20% 10%);
   }
   .Main_name1 .wrapper{
 
@@ -211,5 +219,10 @@ size-adjust: 30px;
     height: 253px;
     /* margin-top: -50px; */
   }
+  .bg-pattern-home-4-about-3{
+    position: absolute;
+    right: 0;
+    bottom: -1850px;
+}
 
 }
