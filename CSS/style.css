@@ -476,7 +476,8 @@ Contact us main
     border-right: none;
     background-color: transparent;
     outline: none;
-    width: 540px;
+    max-width: 540px;
+    min-width: 540px;
 }
 .Message{
     padding: 25px 0 58px 15px;
@@ -767,7 +768,7 @@ Mobile media query from 768px
     }
     /* contact us main */
     .main_contact_us{
-        padding: 122px 24px 123px 24px;
+        padding: 65px 24px 123px 24px;
         flex-direction: column;
         align-self: center;
         align-items: center;
@@ -809,6 +810,35 @@ Mobile media query from 768px
         position: absolute;
         bottom: 0;
         right: -100px;
+    }
+    
+    .form_inputs {
+        max-width: 760px;
+        min-width: 200px;
+        width: 100%;
+    }
+    .column2{
+        width: 100%;
+    }
+    .Main_description_p {
+        width: auto;
+        padding-left: 0px;
+        
+        text-align: start;
+    }
+    .Main_description_p > div {
+        justify-content: center;
+    }
+    .Header_main {
+        margin: auto;
+    }
+    .column1 {
+        margin-right: 0px;
+    }
+    .Main_name {
+        font-size: 40px;
+        font-weight: 700;
+
     }
     /* ----------AboutMain2----------- */
     .about-img_container{
