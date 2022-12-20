@@ -777,6 +777,7 @@ Mobile media query from 768px
         display: flex;
         flex-wrap: wrap;
         /* word-break: break-all; */
+        
     }
     .column2{
         display: inline-block;
@@ -822,8 +823,7 @@ Mobile media query from 768px
     }
     .Main_description_p {
         width: auto;
-        padding-left: 0px;
-        
+        padding-left: 20px;
         text-align: start;
     }
     .Main_description_p > div {
