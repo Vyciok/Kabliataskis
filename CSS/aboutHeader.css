@@ -52,7 +52,7 @@
     font-size: 18px;
     line-height: 28px; 
     width: 730px;
-    height: 112px;
+    
     margin: 0 165p 120px 0;
 }
 
@@ -117,6 +117,11 @@ mobile media query from 768px to 375px
         width: 327px;
         height: 32px;
         margin-top: 0px;
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+
+
     }
     .mainAbout{
         flex-direction: column;

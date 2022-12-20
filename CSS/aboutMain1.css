@@ -70,7 +70,7 @@
 
 .Main_1 button{
   position: relative;
-  top: 36px;
+  top: 19px;
     color: var(--sacramento-state-green);
     width: 56px;
     height: 56px;
@@ -102,7 +102,7 @@
   background-color: var(--rapture-blue);
   text-align: center;
   position: relative;
-  top: 12px;
+  top: 64px;
   cursor: pointer;
 }
 .director .button.active svg{
@@ -189,7 +189,7 @@ size-adjust: 30px;
     height: 28px;
   }
   .director .button.active{
-    margin-top: 17px;
+    top: 12px;
   }
   .wrapper h2{
     font-size: 32px;

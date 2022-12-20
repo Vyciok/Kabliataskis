@@ -810,4 +810,18 @@ Mobile media query from 768px
         bottom: 0;
         right: -100px;
     }
+    /* ----------AboutMain2----------- */
+    .about-img_container{
+        display: flex;
+        align-items: center;
+       flex-direction: column;
+        text-align: center;
+        margin-top: 64px;
+        gap: 56px;
+        justify-content: center;
+        padding-bottom: 151px;
+    }
+    .about-img_about{
+        width: 70%;
+    }
 }
