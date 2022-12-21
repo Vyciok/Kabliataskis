@@ -102,7 +102,7 @@ background-color: var(--dark-green);
 background-color: var(--rapture-blue);
 text-align: center;
 position: relative;
-top: 64px;
+top: 40px;
 cursor: pointer;
 }
 .director .button.active svg{
@@ -140,6 +140,7 @@ color: var(--white);
 }
 
 .director .blank2 .name{
+  padding-top: 36px;
 text-align: center;
 margin-right: auto;
 margin-left: auto;
