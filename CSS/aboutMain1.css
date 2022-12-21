@@ -136,7 +136,7 @@ cursor: pointer;
 }
 .director .figures .icon{
 color: var(--white);
-size-adjust: 30px;
+
 }
 
 .director .blank2 .name{
@@ -221,5 +221,4 @@ display: none;
 .bg-pattern-about-2-main-1{
   top: -100px;
 }
-
 }

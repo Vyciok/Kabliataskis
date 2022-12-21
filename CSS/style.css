@@ -516,7 +516,7 @@ Contact us main
  .text_eror{
     font-weight: 700;
     font-size: 10px;
-    line-height: 12,55px;
+    line-height: 12.55px;
     font-style: italic;
     padding-top: 5px;
  }
@@ -666,10 +666,9 @@ Tablet media query from 1440px to 768px
         text-align: center;
         align-items: center;
         justify-items: center;
-        padding: auto;
+        
     }
     .column1{
-        padding: auto;
         display: inline-block;
         justify-content: center;
         text-align: center;
@@ -785,10 +784,8 @@ Mobile media query from 768px
         text-align: center;
         align-items: center;
         justify-items: center;
-        padding: auto;
     }
     .column1{
-        padding: auto;
         display: inline-block;
         justify-content: center;
         text-align: center;
