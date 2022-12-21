@@ -15,6 +15,8 @@
     overflow: hidden;  
     position: relative;
     z-index: 10;
+    position: relative;
+    z-index: 10;
 }
 
 .directors{
@@ -70,7 +72,7 @@
 
 .Main_1 button{
   position: relative;
-  top: 36px;
+  top: 19px;
     color: var(--sacramento-state-green);
     width: 56px;
     height: 56px;
@@ -102,7 +104,7 @@
   background-color: var(--rapture-blue);
   text-align: center;
   position: relative;
-  top: 12px;
+  top: 64px;
   cursor: pointer;
 }
 .director .button.active svg{
@@ -189,17 +191,12 @@ size-adjust: 30px;
     height: 28px;
   }
   .director .button.active{
-    margin-top: 17px;
+    top: 12px;
   }
   .wrapper h2{
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
-}
-.bg-pattern-home-4-about-3{
-  position: absolute;
-  right: 0;
-  bottom: -950px;
 }
 }
 @media (max-width:768px){
@@ -228,11 +225,6 @@ size-adjust: 30px;
   }
   .bg-pattern-about-2-main-1{
     top: -100px;
-}
-  .bg-pattern-home-4-about-3{
-    position: absolute;
-    right: 0;
-    bottom: -1850px;
 }
 
 }

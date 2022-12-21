@@ -52,7 +52,7 @@
     font-size: 18px;
     line-height: 28px; 
     width: 730px;
-    height: 112px;
+    
     margin: 0 165p 120px 0;
 }
 
@@ -72,6 +72,8 @@ Tablet media query from 1440px to 768px
         line-height: 100px;
         width: 350px;
         margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -98,6 +100,10 @@ Tablet media query from 1440px to 768px
 /* -------------------
 mobile media query from 768px to 375px 
 ----------------------*/
+
+/* -------------------
+mobile media query from 768px to 375px 
+----------------------*/
 @media (max-width:768px){
     .Header_main{
         flex-direction: column;
@@ -117,6 +123,11 @@ mobile media query from 768px to 375px
         width: 327px;
         height: 32px;
         margin-top: 0px;
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+
+
     }
     .mainAbout{
         flex-direction: column;
