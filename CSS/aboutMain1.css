@@ -13,6 +13,8 @@
     color: var(--white);
     background-color: var(--deep-jungle-green);
     overflow: hidden;  
+    position: relative;
+    z-index: 10;
 }
 
 .directors{
@@ -40,7 +42,7 @@
     padding-top: 140px;
     /* padding: 140px 260px 64px 260px; */
     font-weight: 730;
-font-size: 52px;
+    font-size: 52px;
     height: 48px;
 }
 
@@ -189,6 +191,11 @@ size-adjust: 30px;
   .director .button.active{
     margin-top: 17px;
   }
+  .wrapper h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
 .bg-pattern-home-4-about-3{
   position: absolute;
   right: 0;
@@ -219,6 +226,9 @@ size-adjust: 30px;
     height: 253px;
     /* margin-top: -50px; */
   }
+  .bg-pattern-about-2-main-1{
+    top: -100px;
+}
   .bg-pattern-home-4-about-3{
     position: absolute;
     right: 0;
