@@ -74,8 +74,6 @@ Tablet media query from 1440px to 768px
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
         margin-top: 0px;
     }
     .about_banner_section_divider {
@@ -96,10 +94,6 @@ Tablet media query from 1440px to 768px
         text-align: center;
     }
 }
-
-/* -------------------
-mobile media query from 768px to 375px 
-----------------------*/
 
 /* -------------------
 mobile media query from 768px to 375px 
